@@ -324,7 +324,7 @@ Dataset LSP10 was recorded using the Kinect sensor v1, for <strong>rgb</strong> 
     <li><strong>SkeletonLSP</strong></li>
     The skeletonLSP.rar contains a set of folders with the same name as the tag to which they belong; each folder contains files in txt format that store the coordinates (<strong>x, y, z</strong>) of each captured frame.
     <li><strong>LSP10</strong></li>
-    The LSP10 dataset is divided in 3 directories. The file label.txt into directory contains the labels for the 3 directories.
+    The LSP10 dataset is divided in 3 dataset. The file label.txt into directory contains the labels for the 3 directories.
     <ul>
         <li>rgb:</li>
         Contains only rgb data for each phrase recorded.
