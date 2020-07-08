@@ -85,7 +85,7 @@ This dataset contains depth frames divided into 14 classes, it was obtained by t
 <div class="row" style="float: left; width:100%;  text-align:center">
   <div class="column" style="float: left;">
       <div>
-          <img src="./img/depth/pos.png" alt="Snow" width="33%">
+          <img src="./img/depth/pos9.png" alt="Snow" width="33%">
       </div>
       <span>pos9</span>
   </div>
