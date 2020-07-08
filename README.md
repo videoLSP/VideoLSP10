@@ -1,10 +1,9 @@
-
 <h1><center>VideoLSP10</center></h1>
 The sign dataset for Peruvian Sign Language  was created with the objective of encouraging students and researchers to find better solutions to reduce the gap that exists between the deaf community and normal people, also to be used as training data for different learning models this dataset include 3 dataset called depthLSP, skeletonLSP10 and LSP10. <br>
 <a href="https://drive.google.com/drive/folders/1Bx3vP_ATx6DMBKhIUSh_3hocAAoNa6i6?usp=sharing">You can download VideoLSP10 dataset here</a>
 
 ## DepthLSP
-This dataset contains only depth frame divided into 14 classes, it was obtained by the Kinect sensor v1 at a resolution of 480x640 in closed environments. Each depth frame have both hands in different position according to label.
+This dataset contains depth frames divided into 14 classes, it was obtained by the Kinect sensor v1 at a resolution of 480x640 in closed environments. Each depth frame has both hands in different positions according to the label.
 <div class="depthLSP" style="align:center">
     <table>
   <tr>
@@ -83,30 +82,32 @@ This dataset contains only depth frame divided into 14 classes, it was obtained 
 <strong>Samples:</strong>
 </h3>
 <br>
-<div class="row">
-  <div class="column" style="float: left; width:30%;  text-align:center">
+<div class="row" style="float: left; width:100%;  text-align:center">
+  <div class="column" style="float: left;">
       <div>
-          <img src="./img/depth/pos9.png" alt="Snow" width="33%">
+          <img src="./img/depth/pos.png" alt="Snow" width="33%">
       </div>
       <span>pos9</span>
   </div>
-  <div class="column" style="float: left;width:30%;  text-align:center">
+  <div class="column" style="float: left; text-align:center">
      <div>
           <img src="./img/depth/pos12.png" alt="Snow" width="33%">
       </div>
       <span>pos12</span>
   </div>
-  <div class="column" style="float: left;width:30%;  text-align:center">
+  <div class="column" style="float: left;  text-align:center">
      <div>
           <img src="./img/depth/pos2.png" alt="Snow" width="33%">
       </div>
       <span>pos2</span>
   </div>
 </div>
-<h3><a href="https://drive.google.com/open?id=1ll9QGjXHGcWHlFhK_F_1FPy6y0vy1uOc">Download depthLSP from Google drive</a></h3><br>
+<br>
+<a href="https://drive.google.com/open?id=1ll9QGjXHGcWHlFhK_F_1FPy6y0vy1uOc">Download depthLSP from Google drive</a>
 
 ## SkeletonLSP
-This dataset contains 1701 skeleton movements that are divided into 21 classes, each class has 81 sequences of movement where each frame of a movement is composed of 10 coordinates (<strong>x, y, z</strong>), the coordinates are points of union of the upper body (hand right, wrist right, elbow right, shoulder right, head, shoulder center, shoulder left, elbow left, wrist left and hand left). The character <strong>"l"</strong> (left hand), <strong>"r"</strong> (right hand) and <strong>"b"</strong> (both hands) are prefixed to each tag as a reference to the hand that executes an action or movement. The movements are directed to certain directions (up, front, left, right, head, mouth and chest).
+
+This dataset contains 1701 skeleton movements that are divided into 21 classes and each class has 81 sequences of movement where each frame from movement is composed of 10 coordinates (<strong>x, y, z</strong>) where each one represents points of union of the upper body (hand right, wrist right, elbow right, shoulder right, head, shoulder center, shoulder left, elbow left, wrist left and hand left). The character <strong>"l"</strong> (left hand), <strong>"r"</strong> (right hand) and <strong>"b"</strong> (both hands) are prefixed to each tag as a reference to the hand that executes an action or movement. The movements are directed to certain directions (up, front, left, right, head, mouth and chest).
 
 
 <div class="skeletonLSP" style="align:center">
@@ -227,12 +228,11 @@ This dataset contains 1701 skeleton movements that are divided into 21 classes, 
       <span>b-up</span>
   </div>
 </div>
-<h3><a href="https://drive.google.com/open?id=1ZP4vaRWslEalqQF8TsWiYI7DpiCOOyd1">Download skeletonLSP from Google drive</a> </h3><br>
+<a href="https://drive.google.com/open?id=1ZP4vaRWslEalqQF8TsWiYI7DpiCOOyd1">Download skeletonLSP from Google drive</a><br>
 
 ## LSP10
-This data set contains 10 Peruvian phrases most used in daily life and selected according to our criteria. Each phrase consists of 60 videos stored in <strong>rgb</strong>, <strong>depth</strong> and <strong>skeleton</strong> format which were captured in different environments with natural light, artificial and with different intensities. The number of frames in each phrase varies in a range of 17 to 197 depending on the gesture complexity.
-Recorded data was made to 25 individuals who were taught each phrase before recording. 
-Dataset LSP10 was recorded using the Kinect sensor v1, for <strong>rgb</strong> and <strong>depth</strong> data were recorded at a resolution of <strong>480 x 640</strong> and for <strong>skeleton</strong> data was considered 10 points of union (hand right, wrist right, elbow right, shoulder right, head, shoulder center, shoulder left, elbow left, wrist left, hand left).
+
+This data set contains 10 Peruvian phrases most used in daily life and selected according to our criteria. there are 60 videos from each one split on <strong>rgb</strong>, <strong>depth</strong> and <strong>skeleton</strong> format moreover them was captured in different environments with natural light, artificial and with different intensities. The number of frames from one phrase oscillate in range of 17 to 197 depending on the gesture complexity. Recorded data was made to 25 individuals who were taught each phrase before recording. Dataset LSP10 was recorded using the Kinect sensor v1 where the resolution recorded for rgb and depth data were <strong>480 x 640</strong> and skeleton data have 10 union points such as  (hand right, wrist right, elbow right, shoulder right, head, shoulder center, shoulder left, elbow left, wrist left, hand left).
 
 <div class="LSP10" style="align:center">
     <table>
@@ -299,7 +299,7 @@ Dataset LSP10 was recorded using the Kinect sensor v1, for <strong>rgb</strong> 
 </div>
 
 <h3>
-<strong>sample phrase which show 3 data types contained in LSP10:</strong>
+<strong>Peruvian sign phrase from LSP10 dataset</strong>
 </h3> <br>
 <div class="row">
   <div class="column" style="width: 100%;  text-align:center">
@@ -320,11 +320,11 @@ Dataset LSP10 was recorded using the Kinect sensor v1, for <strong>rgb</strong> 
 ## structure of the datasets VideoLSP10
 <ul>
     <li><strong>DepthLSP</strong></li>
-    The file depthLSP.rar contains <b>xml</b> files which stores the depth information of a frame, inside the rar file there is a file <b>label.txt</b> which stores the tag which belongs a certain range of xml files.
+    DepthLSP.rar contains <b>xml</b> files which stores depth information of a frame and <b>label.txt</b>  stores the tag which belongs a certain range of xml files. 
     <li><strong>SkeletonLSP</strong></li>
-    The skeletonLSP.rar contains a set of folders with the same name as the tag to which they belong; each folder contains files in txt format that store the coordinates (<strong>x, y, z</strong>) of each captured frame.
+    SkeletonLSP.rar contains a set of folders where each name work as theirs tag and each folder contains txt files which store the coordinates (<strong>x, y, z</strong>) of one sign language recorded over the time.
     <li><strong>LSP10</strong></li>
-    The LSP10 dataset is divided in 3 dataset. The file label.txt into directory contains the labels for the 3 directories.
+    LSP10 dataset is divided on 3 directories. 
     <ul>
         <li>rgb:</li>
         Contains only rgb data for each phrase recorded.
@@ -333,15 +333,26 @@ Dataset LSP10 was recorded using the Kinect sensor v1, for <strong>rgb</strong> 
         <li>skeleton:</li>
         Contains only skeleton data for each phrase recorded.
     </ul>
+    <br>
+    label.txt file into directory has the tags for each peruvian sign language recorded.
 </ul>
 
-## Tools for preprocessing
-Coming soon...
+## Deep learning model and data record tool
+<h3>project structure</h3>
+<div class="row" style="width: 100%;  text-align:center">
+  <div class="column" style="width:30%; margin:0 auto;">
+      <div>
+          <img src="./img/estructura.png" alt="Snow" style="width:100%">
+      </div>
+      <span>home.py is the main file</span>
+  </div>
+ <h3><a href="https://github.com/vladiH/peruvian_sign_language_translation">Download</a> </h3>
+</div>
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">VideoLSP10</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/videoLSP/VideoLSP10.git" property="cc:attributionName" rel="cc:attributionURL">Yuri Vladimir Huallpa Vargas</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Reconocimiento-NoComercial 4.0 Internacional License</a>.<br />Creado a partir de la obra en <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/videoLSP/VideoLSP10.git" rel="dct:source">https://github.com/videoLSP/VideoLSP10.git</a>.
 
-If you use this work, you must comply with the following:
+This basically means that:
 <ul>
     <li>Academic, educational or personal use is allowed without restrictions</li>
     <li>You must share any derivative works under the same license (ie, preprocessed versions of the dataset, subsets, supersets using other datasets).</li>
@@ -349,6 +360,26 @@ If you use this work, you must comply with the following:
     <li>Commercial uses of the dataset are not allowed.</li>
 </ul>
 
-##  Contact
+## Citing
 
+
+```python
+@InProceedings{10.1007/978-3-030-46140-9_16,
+author="Vargas, Yuri Vladimir Huallpa
+and Ccasa, Naysha Naydu Diaz
+and Rodas, Lauro Enciso",
+editor="Lossio-Ventura, Juan Antonio
+and Condori-Fernandez, Nelly
+and Valverde-Rebaza, Jorge Carlos",
+title="Peruvian Sign Language Recognition Using a Hybrid Deep Neural Network",
+booktitle="Information Management and Big Data",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="165--172",
+isbn="978-3-030-46140-9"
+}
+```
+
+##  Contact
 <b>Yuri Vladimir Huallpa Vargas</b> yurihuallpavargas@gmail.com
